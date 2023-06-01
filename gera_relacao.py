@@ -53,6 +53,8 @@ def ler_dados():
         ['NADA FEITO', 'ABORDAGEM EM ANDAMENTO', 'ABORDADA', 'ACORDADA', 'EM ATRASO', 'RENEGOCIADA', 'COBRADA',
          'NOTIFICADA', 'COLETADA', 'FAC'], ['Não', 'Não', 'Não', 'Não', 'Não', 'Não', 'Não', 'Não', 'Sim', 'FAC*'])
     del dados['FAC']
+    del dados['index']
+    
     return (dados)
 
 
